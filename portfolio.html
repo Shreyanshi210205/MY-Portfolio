@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script> 
+</head>
+<body>
+  <button id="go-to-top" onclick="scrollToTop()">⬆</button>
+  <header>
+    <nav>
+      
+      <ul id="nav-links">
+        <li><div class="hamburger" onclick="toggleCustomMessage()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div></li>
+        <li><a href="#" onclick="scrollToSection('tech-stacks')">My Tech Stacks</a></li>
+        <li><a href="#" onclick="scrollToSection('web-dev')">WEBD</a></li>
+        <li><a href="#" onclick="scrollToSection('blockchain-works')">Blockchain</a></li>
+        <li><a href="#" onclick="scrollToSection('competitive-programming')">Competitive Programming</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+  <div class="box">
+    <div class="text">
+      <h1>Hi, This is Shreyanshi Srivastava.</h1>
+    </div>
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+        </div>
+        <div class="back">
+          <div class="back-logo"></div>
+          <div class="back-title">About Me</div>
+          <p>Web Developer</p>
+          <p>Blockchain Developer</p>
+          <p>Competitive Programmer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="slide-box" class="slide-box">
+    <span class="close-btn" onclick="toggleCustomMessage()"></span>
+    <h2>Education</h2>
+    <p>Bachelor of Technology in Computer Science and Engineering</p>
+    <p>IIIT Bhagalpur - 2023 to 2027</p>
+    <h2>Experience</h2>
+    <p>Blockchain Developer Intern at Quamin Tech Solutions LLP</p>
+    <p>Technical coordinator at Unnati Welfare Society</p>
+  </div>
+  <div class="separation">
+    
+  </div>
+
+<div id="tech-stacks" class="content-section">
+  <h1>My Tech Stacks</h1>
+  
+    <div class="tech-stacks-container">
+      <!-- Web Development Box -->
+      <div class="tech-box">
+        <h2>Web Development</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li></ul>
+          <div>used in creating and maintaining websites , ensuring they are visually appealing, user-friendly, and functional.</div>
+        
+      </div>
+      
+      <!-- Blockchain Box -->
+      <div class="tech-box">
+        <h2>Blockchain</h2>
+        <ul>
+          <li>Solidity</li>
+          <li>Ethereum</li>
+        </ul>
+        <div>used to leverage blockchain’s core features: decentralization, transparency, and immutability.</div>
+      </div>
+      
+      <!-- Competitive Programming Box -->
+      <div class="tech-box">
+        <h2>Competitive Programming</h2>
+        <ul>
+          <li>DSA</li>
+          <li>C++</li>
+        </ul>
+        <div>used to enhance coding efficiency and accuracy under time constraints, fostering a deep understanding of programming concepts</div>
+      </div>
+    </div>
+</div>
+<div class="separation">
+</div>
+
+<section id="web-dev">
+  <h2>My Works in Web Development</h2>
+  
+  <!-- First Work -->
+  <div class="work-container">
+      <div class="work-box">
+          <img src="img1.png.jpg" alt="Project 1">
+      </div>
+      <div class="work-description">
+          <h3>Unnati Welfare Society Website</h3>
+          <p>Contributed in the website of Unnati Welfare Society by making a membership form and donation form and liking it to google forms</p>
+      </div>
+  </div>
+  
+  <!-- Second Work -->
+  <div class="work-container reverse">
+      <div class="work-box">
+          <video src="vid1.mp4" loop></video>
+      </div>
+      <div class="work-description">
+          <h3>NETFLIX Clone</h3>
+          <p>Tried making a clone website of netflix using only HTML and CSS as a part of making the foundation of webdevelopment strong. </p>
+      </div>
+  </div>
+</section>
+<div class="separation">
+</div>
+<section id="blockchain-works">
+  <h2>My Works in Blockchain</h2>
+  
+  <div class="blockchain-content">
+      <p>I am currently interning as a Blockchain Developer at QUAMIN TECH SOLUTIONS LLP. My role involves developing and implementing smart contracts using Solidity, working on decentralized applications (DApps) on the Ethereum blockchain, and exploring various blockchain technologies to create innovative solutions. This internship has provided me with hands-on experience in the blockchain industry, allowing me to deepen my understanding of the technology and its real-world applications. </p>
+  </div>
+</section>
+<div class="separation">
+</div>
+<section id="competitive-programming">
+  <h2>As a Competitive Programmer</h2>
+  
+  <div class="cp-content">
+      <ul>
+          <li>Actively participate in coding contests on platforms like Codeforces and CodeChef.</li>
+          <li>Consistently work on solving complex problems to improve problem-solving skills.</li>
+          <li>CodeChef Rating: <strong>1479 (2 star)</strong> </li>
+          <li>Codeforces Rating: <strong>1028 (NEWBIE)</strong> </li>
+      </ul>
+  </div>
+</section>
+
+<section id="contact-details">
+  <h2>Contact Me</h2>
+  
+  <div class="contact-info">
+      <p>Email: <a href="shreya.nshi2102@gmail.com">your.email@example.com</a></p>
+      <p>Contact: +91 7521987999(WhatsApp)</p>
+      <p>&nbsp;&nbsp; +91 9119903740(Call)</p>
+      <p>GitHub: <a href="https://github.com/Shreyanshi210205" target="_blank">github.com/your-github</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/shreyanshi-srivastava-774280295/" target="_blank">linkedin.com/in/your-linkedin</a></p>
+  </div>
+</section>
+
+
+
+
+
+</body>
+</html>
